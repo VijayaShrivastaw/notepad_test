@@ -1,0 +1,19 @@
+To check if your computer can communicate with the connected Android device/emulator:
+
+adb reverse tcp:8081 tcp:8081
+
+Error if no devices/emulators found: like this
+  erro - adb.exe: error: no devices/emulators found
+
+If ADB is recognizing your device/emulator, you can proceed to run the app:
+for android
+npx react-native run-android
+for ios 
+npx react-native run-ios
+
+
+After successfully building the project, start the Metro Bundler:
+
+npm start
+
+
